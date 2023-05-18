@@ -1,0 +1,30 @@
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+}
+.navegadores{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+.navegadorLogo{
+    height: 400px;
+    width: 400px;
+    box-shadow: 2px 2px 6px #635985;
+    border-radius: 20px;
+    margin-right: 20px;
+    transition: 1s;
+
+}
+.navegadorLogo:hover{
+    background-image: linear-gradient(to right, yellow,red);
+    transform: scale(1.1) rotate(10deg);
+}
+.logo{
+    height: 350px;
+}
